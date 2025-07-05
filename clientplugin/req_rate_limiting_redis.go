@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
+	"github.com/LoveBeforT/rpcx/client"
+	"github.com/LoveBeforT/rpcx/server"
 	"github.com/go-redis/redis_rate/v10"
 	"github.com/redis/go-redis/v9"
-	"github.com/smallnest/rpcx/client"
-	"github.com/smallnest/rpcx/server"
 )
 
 var _ client.PreCallPlugin = (*RedisRateLimitingPlugin)(nil)

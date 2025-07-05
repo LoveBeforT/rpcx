@@ -3,7 +3,7 @@ package share
 import (
 	"testing"
 
-	"github.com/smallnest/rpcx/protocol"
+	"github.com/LoveBeforT/rpcx/protocol"
 	"github.com/stretchr/testify/assert"
 )
 
