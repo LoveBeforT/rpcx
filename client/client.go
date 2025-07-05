@@ -89,7 +89,7 @@ var (
 	ErrUnsupportedCodec = errors.New("unsupported codec")
 )
 
-const (
+var (
 	// ReaderBuffsize is used for bufio reader.
 	ReaderBuffsize = 16 * 1024
 	// WriterBuffsize is used for bufio writer.

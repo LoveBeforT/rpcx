@@ -33,7 +33,7 @@ var (
 	ErrReqReachLimit = errors.New("request reached rate limit")
 )
 
-const (
+var (
 	// ReaderBuffsize is used for bufio reader.
 	ReaderBuffsize = 1024
 	// WriterBuffsize is used for bufio writer.
